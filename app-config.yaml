@@ -71,7 +71,7 @@ catalog:
     - allow: [Component, System, Group, User, Resource, Location, Template, API]
   locations:
     - type: url
-      target: https://github.com/paulofponciano/backstage-app/blob/v1.30.4/catalog-entities/locations.yaml
+      target: https://github.com/pegasus-idp/backstage-app/blob/main/catalog-entities/locations.yaml
 
 kubernetes:
   serviceLocatorMethod:
