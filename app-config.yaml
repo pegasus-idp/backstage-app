@@ -61,7 +61,7 @@ auth:
 scaffolder:
   defaultAuthor:
     name: ":robot: [backstage-bot]"
-    email: paulofponciano@gmail.com
+    email: gportela@valcann.com.br
 
 catalog:
   import:
