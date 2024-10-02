@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-app
+  description: An example of a Backstage application.
+  annotations:
+    github.com/project-slug: paulofponciano/backstage-app
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: paulofponciano@gmail.com
+  lifecycle: experimental

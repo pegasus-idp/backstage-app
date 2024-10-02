@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/kubernetes-id: FastAPI
+  name: FastAPI
+  tags:
+    - k8s
+  links:
+    - url: https://fastapi.tiangolo.com/
+      title: Officinal FastAPI Documentation
+spec:
+  lifecycle: experimental
+  system: versionup
+  owner: sre
+  type: service
+  providesApis:
+    - hello-world
+  
