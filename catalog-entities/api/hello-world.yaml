@@ -9,7 +9,7 @@ metadata:
     - rest
 spec:
   type: openapi
-  system: versionup
+  system: E-commerce Platform
   lifecycle: experimental
   owner: sre
   definition:

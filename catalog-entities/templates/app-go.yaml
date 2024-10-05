@@ -4,10 +4,8 @@ metadata:
   name: golang-template
   title: Golang Template
   description: Create a new Golang App
-
   tags:
     - golang
-    - website
     - component
 spec:
   owner: group:sre
