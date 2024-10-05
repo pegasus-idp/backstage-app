@@ -146,7 +146,7 @@ spec:
       if: ${{ parameters.kube == true }}
       input:
         targetPath: ./kube
-        url: https://github.com/paulofponciano/backstage-app/tree/v1.30.4/catalog-entities/skeleton/kubernetes/apps/kustomize
+        url: https://github.com/pegasus-idp/backstage-app/tree/main/catalog-entities/skeleton/kubernetes/apps/kustomize
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
@@ -177,10 +177,10 @@ spec:
 
   output:
     links:
-      - title: Go to Repository
+      - title: Go to new App Repository
         url: ${{ steps['publish'].output.repoContentsUrl }}
       - title: Go to GitOps Pull Request
-        url: ${{ steps.kube-pr.output.remoteUrl }}
+        url: https://github.com/pegasus-idp/gitops/pulls
       - title: Open in catalog
         icon: catalog
         entityRef: ${{ steps['register'].output.entityRef }}
