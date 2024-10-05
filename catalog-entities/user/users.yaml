@@ -18,4 +18,4 @@ spec:
     displayName: Gabriel Portela
     email: gportela@valcann.com.br
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
-  memberOf: [sre]
+  memberOf: [sre,web-sales]
