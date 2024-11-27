@@ -8,7 +8,7 @@ spec:
     istio: gateway
   servers:
     - hosts:
-        - backstage.sevira.cloud
+        - backstage.gabportela.pro
       port:
         name: http
         number: 80
