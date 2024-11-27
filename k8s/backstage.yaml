@@ -29,10 +29,10 @@ spec:
                 name: backstage-secrets
             - secretRef:
                 name: github-auth-secrets
-            - secretRef:
-                name: eks-secrets
-            - secretRef:
-                name: argocd-auth-secrets
+            # - secretRef:
+            #     name: eks-secrets
+            # - secretRef:
+            #     name: argocd-auth-secrets
           env:
           - name: POSTGRES_PORT
             value: "5432"

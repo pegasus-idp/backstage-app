@@ -1,18 +1,18 @@
 app:
   title: Community Backstage
-  baseUrl: https://backstage.sevira.cloud
+  baseUrl: https://backstage.gabportela.pro
 
 organization:
   name: Community
 
 backend:
-  baseUrl: https://backstage.sevira.cloud
+  baseUrl: https://backstage.gabportela.pro
   listen:
     port: 7007
   csp:
     connect-src: ["'self'", 'http:', 'https:']
   cors:
-    origin: https://backstage.sevira.cloud
+    origin: https://backstage.gabportela.pro
     methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
     credentials: true
   database:
