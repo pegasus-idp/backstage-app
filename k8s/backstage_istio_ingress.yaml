@@ -5,7 +5,7 @@ metadata:
   namespace: backstage
 spec:
   selector:
-    istio: ingressgateway
+    istio: gateway
   servers:
     - hosts:
         - backstage.sevira.cloud
@@ -16,7 +16,7 @@ spec:
       tls:
         httpsRedirect: true
     - hosts:
-        - backstage.sevira.cloud
+        - backstage.gabportela.pro
       port:
         name: https-workloads
         number: 443
@@ -33,7 +33,7 @@ spec:
   gateways:
     - backstage-gateway
   hosts:
-    - backstage.sevira.cloud
+    - backstage.gabportela.pro
   http:
     - route:
         - destination:
