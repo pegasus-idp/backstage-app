@@ -5,7 +5,7 @@ metadata:
   namespace: ${{values.component_id}}
 spec:
   selector:
-    istio: ingressgateway
+    istio: gateway
   servers:
     - hosts:
         - ${{values.component_id}}.sevira.cloud
