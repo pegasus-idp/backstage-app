@@ -14,4 +14,4 @@ spec:
   resourceConfig:
     providerConfigName: aws
     record: ${{values.component_id}}
-    region: us-east-2
+    region: us-west-2

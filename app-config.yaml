@@ -82,7 +82,7 @@ kubernetes:
     - type: 'config'
       clusters:
         - url: kubernetes.default.svc.cluster.local
-          name: pegasus
+          name: eks-servicos-internos
           authProvider: 'serviceAccount'
           skipTLSVerify: false
           skipMetricsLookup: true
