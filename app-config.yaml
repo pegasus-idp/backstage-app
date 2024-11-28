@@ -71,7 +71,7 @@ catalog:
     - allow: [Component, System, Group, User, Resource, Location, Template, API]
   locations:
     - type: url
-      target: https://github.com/pegasus-idp/backstage-app/blob/main/catalog-entities/components.yaml
+      target: https://github.com/pegasus-idp/backstage-app/blob/main/catalog-entities/locations.yaml
     - type: url
       target: https://github.com/pegasus-idp/backstage-app/blob/main/catalog-entities/user/users.yaml
 
